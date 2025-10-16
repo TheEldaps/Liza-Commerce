@@ -8,7 +8,7 @@ import CartIcon from "../../../public/CartIcon.png";
 
 export default function Nav() {
   return (
-    <section className="flex justify-between px-[20px] py-[10px] sm:gap-5 border max-w-[90%] m-auto sticky">
+    <section className="flex justify-between px-[20px] py-[10px] sm:gap-5 border max-w-[90%] m-auto fixed">
       <div className="flex items-center gap-3">
         <Image src={Logo} width="48" height="48" alt="Platform Logo" />
         <h2 className="text-[1.5rem] font-bold font-[montserrat]">Liza-Mart</h2>
