@@ -26,7 +26,7 @@ export default function Nav() {
         <input
           type="text"
           placeholder="Search essentials, groceries and more..."
-          className="outline-0 flex-1 font-[montserrat] text-[0.8rem]"
+          className="outline-0 flex-1 font-[montserrat] text-[0.8rem] h-full"
         />
 
         <button>
