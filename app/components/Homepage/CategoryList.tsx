@@ -1,9 +1,15 @@
+"use client";
 import CategoryMaker from "./CategoryMaker";
+import { useState } from "react";
 
 export default function CategoryList() {
+  const [selected, setSelected] = useState(1);
   return (
-    <section className="py-[40px] px-[10%] flex gap-5 items-center border overflow-x-scroll scrollbar-hide scroll-smooth">
+    <section className=" w-[90%] mx-auto flex  items-center gap-5 lg:gap-12 overflow-x-scroll scrollbar-hide scroll-smooth">
       <CategoryMaker
+        id={1}
+        selected={selected === 1}
+        setSelected={setSelected}
         title="Groceries"
         options={[
           "Beverages",
@@ -18,6 +24,9 @@ export default function CategoryList() {
       />
 
       <CategoryMaker
+        id={2}
+        selected={selected === 2}
+        setSelected={setSelected}
         title="Premium fruits"
         options={[
           "Imported",
@@ -31,6 +40,9 @@ export default function CategoryList() {
       />
 
       <CategoryMaker
+        id={3}
+        selected={selected === 3}
+        setSelected={setSelected}
         title="Home and kitchen"
         options={[
           "Cookware",
@@ -44,6 +56,9 @@ export default function CategoryList() {
       />
 
       <CategoryMaker
+        id={4}
+        selected={selected === 4}
+        setSelected={setSelected}
         title="Fashion"
         options={[
           "Men",
@@ -57,6 +72,9 @@ export default function CategoryList() {
       />
 
       <CategoryMaker
+        id={5}
+        selected={selected === 5}
+        setSelected={setSelected}
         title="Electronics"
         options={[
           "Phones",
@@ -70,11 +88,17 @@ export default function CategoryList() {
       />
 
       <CategoryMaker
+        id={6}
+        selected={selected === 6}
+        setSelected={setSelected}
         title="Beauty"
         options={["Skincare", "Makeup", "Hair", "Fragrance", "Body", "Men"]}
       />
 
       <CategoryMaker
+        id={7}
+        selected={selected === 7}
+        setSelected={setSelected}
         title="Home improvement"
         options={[
           "Tools",
@@ -88,6 +112,9 @@ export default function CategoryList() {
       />
 
       <CategoryMaker
+        id={8}
+        selected={selected === 8}
+        setSelected={setSelected}
         title="Sports, toys & luggage"
         options={[
           "Sports",

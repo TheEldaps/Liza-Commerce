@@ -8,14 +8,14 @@ import CartIcon from "../../../public/CartIcon.png";
 
 export default function Nav() {
   return (
-    <section className="flex justify-between px-[20px] py-[10px] sm:gap-5 border max-w-[90%] m-auto fixed">
+    <section className="flex justify-between py-[10px] sm:gap-5 w-[90%] m-auto sticky mb-[20px] md:mb-[40px]">
       <div className="flex items-center gap-3">
         <Image src={Logo} width="48" height="48" alt="Platform Logo" />
         <h2 className="text-[1.5rem] font-bold font-[montserrat]">Liza-Mart</h2>
       </div>
 
       {/* Search section */}
-      <div className="hidden sm:flex gap-3 justify-between items-center border border-[#2418c0] px-[10px] rounded-md flex-1 max-w-[400px] bg-[#F3F9FB] hover:border-[#2318c051] hover:bg-[#f3f9fb97] ">
+      <div className="hidden md:flex gap-3 justify-between items-center border border-[#2418c0] px-[10px] rounded-md flex-1 max-w-[400px] bg-[#F3F9FB] hover:border-[#2318c051] hover:bg-[#f3f9fb97] ">
         <Image
           src={SearchIcon}
           width="20"
