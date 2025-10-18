@@ -5,7 +5,7 @@ import { useState } from "react";
 export default function CategoryList() {
   const [selected, setSelected] = useState(1);
   return (
-    <section className=" w-[90%] mx-auto flex  items-center gap-5 lg:gap-12 overflow-x-scroll scrollbar-hide scroll-smooth">
+    <section className=" w-[90%] mx-auto flex  items-center gap-5 lg:gap-12 overflow-x-scroll scrollbar-hide scroll-smooth mb-[20px]">
       <CategoryMaker
         id={1}
         selected={selected === 1}

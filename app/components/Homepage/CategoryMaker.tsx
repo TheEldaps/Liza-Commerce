@@ -17,8 +17,8 @@ export default function CategoryMaker({
     <select
       name={title}
       id={title}
-      className={` font-[montserrat] text-[black] rounded-2xl px-[10px] py-[5px] hover:bg-[#2318c033] cursor-pointer ${
-        selected ? "bg-[#2418c0]" : "bg-[#2318c06b]"
+      className={` font-[montserrat] text-[black] text-[0.8rem] md:text-[1rem] rounded-2xl px-[10px] py-[5px] hover:bg-[#2318c033] cursor-pointer ${
+        selected ? "bg-[#5f58bf]" : "bg-[#2318c06b]"
       } `}
       onClick={() => {
         setSelected(id);
