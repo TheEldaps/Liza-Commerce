@@ -3,9 +3,9 @@ import TopCategoryItem from "./TopCategoryItem";
 
 export default function TopCategorySection() {
   return (
-    <section className="w-[90%] mx-auto font-[montserrat]">
-      <div className="flex justify-between mb-[20px]">
-        <p className="border-b-4 border-[#2418c0] pb-[5px]">
+    <section className="w-[90%] mx-auto font-[montserrat] mb-[40px]">
+      <div className="flex justify-between mb-[20px] border-b-2 border-b-[grey]">
+        <p className="border-b-4 border-[#2418c0] pb-[5px] z-1">
           Shop from{" "}
           <span className="text-[#2418c0] font-bold">Top Categories</span>
         </p>

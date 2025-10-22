@@ -4,7 +4,7 @@ import DailyEssentialsItems from "./DailyEssentialsItems";
 export default function DailyEssentialsCategory() {
   return (
     <section className="w-[90%] mx-auto font-[montserrat]">
-      <div className="flex justify-between mb-[20px]">
+      <div className="flex justify-between mb-[40px]">
         <p className="border-b-4 border-[#2418c0] pb-[5px]">
           Daily <span className="text-[#2418c0] font-bold">Essentials</span>
         </p>
@@ -16,6 +16,18 @@ export default function DailyEssentialsCategory() {
         </Link>
       </div>
       <div className="flex justify-between flex-wrap ">
+        <DailyEssentialsItems />
+        <DailyEssentialsItems />
+        <DailyEssentialsItems />
+        <DailyEssentialsItems />
+        <DailyEssentialsItems />
+        <DailyEssentialsItems />
+        <DailyEssentialsItems />
+        <DailyEssentialsItems />
+        <DailyEssentialsItems />
+        <DailyEssentialsItems />
+        <DailyEssentialsItems />
+        <DailyEssentialsItems />
         <DailyEssentialsItems />
       </div>
     </section>
