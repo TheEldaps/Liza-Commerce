@@ -7,7 +7,7 @@ import BestDealCategory from "./components/Homepage/BestDealCategory";
 
 export default function Home() {
   return (
-    <div>
+    <div className="min-h-[200vh]">
       <Nav />
       <CategoryList />
       <BannerSection />
