@@ -1,5 +1,5 @@
 import Link from "next/link";
-import TopCategoryItem from "./BestDealItem";
+import TopCategoryItem from "./TopCategoryItem";
 
 export default function TopCategorySection() {
   return (
@@ -17,6 +17,16 @@ export default function TopCategorySection() {
         </Link>
       </div>
       <div className="flex justify-between flex-wrap ">
+        <TopCategoryItem />
+        <TopCategoryItem />
+        <TopCategoryItem />
+        <TopCategoryItem />
+        <TopCategoryItem />
+        <TopCategoryItem />
+        <TopCategoryItem />
+        <TopCategoryItem />
+        <TopCategoryItem />
+        <TopCategoryItem />
         <TopCategoryItem />
       </div>
     </section>
