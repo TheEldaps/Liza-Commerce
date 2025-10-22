@@ -3,7 +3,7 @@ import DailyEssentialsItems from "./DailyEssentialsItems";
 
 export default function DailyEssentialsCategory() {
   return (
-    <section className="w-[90%] mx-auto font-[montserrat]">
+    <section className="w-[90%] mx-auto font-[montserrat] mb-[40px]">
       <div className="flex justify-between mb-[40px]">
         <p className="border-b-4 border-[#2418c0] pb-[5px]">
           Daily <span className="text-[#2418c0] font-bold">Essentials</span>
