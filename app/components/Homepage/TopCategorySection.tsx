@@ -1,12 +1,12 @@
 import Link from "next/link";
 import TopCategoryItem from "./BestDealItem";
 
-export default function BestDealCategory() {
+export default function TopCategorySection() {
   return (
     <section className="w-[90%] mx-auto font-[montserrat]">
       <div className="flex justify-between mb-[20px]">
         <p className="border-b-4 border-[#2418c0] pb-[5px]">
-          Shop from
+          Shop from{" "}
           <span className="text-[#2418c0] font-bold">Top Categories</span>
         </p>
         <Link
