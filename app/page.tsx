@@ -14,8 +14,9 @@ export default function Home() {
       <BannerSection />
       <BestDealSection />
       <TopCategorySection />
-      <DailyEssentialsSection />
       <TopElectronicsBrand />
+      <DailyEssentialsSection />
+
       {/* <Link href="/Login">Home page</Link> */}
     </div>
   );

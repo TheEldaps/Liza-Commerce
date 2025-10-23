@@ -3,7 +3,7 @@ import ElectronicBrandItems from "./ElectronicBrandItems";
 
 export default function TopElectronicsBrand() {
   return (
-    <section className="w-[90%] mx-auto font-[montserrat]">
+    <section className="w-[90%] mx-auto font-[montserrat] mb-[40px]">
       <div className="flex justify-between mb-[40px] border-b-2 border-b-[grey]">
         <p className="border-b-4 border-[#2418c0] pb-[5px]">
           Top{" "}
