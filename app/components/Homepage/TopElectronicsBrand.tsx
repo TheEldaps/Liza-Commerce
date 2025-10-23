@@ -1,4 +1,5 @@
 import Link from "next/link";
+import ElectronicBrandItems from "./ElectronicBrandItems";
 
 export default function TopElectronicsBrand() {
   return (
@@ -15,7 +16,17 @@ export default function TopElectronicsBrand() {
           View All <span className="text-[#2418c0] font-bold ml-[]">&gt;</span>{" "}
         </Link>
       </div>
-      <div className="flex justify-between flex-wrap "></div>
+      <div className="flex justify-between flex-wrap ">
+        <ElectronicBrandItems />
+        <ElectronicBrandItems />
+        <ElectronicBrandItems />
+        <ElectronicBrandItems />
+        <ElectronicBrandItems />
+        <ElectronicBrandItems />
+        <ElectronicBrandItems />
+        <ElectronicBrandItems />
+        <ElectronicBrandItems />
+      </div>
     </section>
   );
 }
