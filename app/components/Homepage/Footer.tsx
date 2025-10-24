@@ -1,66 +1,74 @@
 import Image from "next/image";
+import WhatsappLogo from "../../../public/WhatsappLogo.png";
+import CallIcon from "../../../public/CallIcon.png";
+import AppStoreImage from "../../../public/AppStoreImage.png";
+import GooglePlayImage from "../../../public/GooglePlayImage.png";
 
 export default function Footer() {
   return (
-    <section>
-      <section>
+    <section className="bg-[#2418c0] mx-auto px-[4%] text-[white] font-[montserrat] text-[0.7rem] pt-[20px]">
+      <section className="flex justify-between mb-[20px] gap-0.5 lg:justify-around">
         <section>
-          <h1>LizaMart</h1>
+          <h1 className="text-[1.7rem] font-bold mb-[20px]">LizaMart</h1>
 
-          <h3>Contact Us</h3>
-          <ul>
-            <li>
-              <Image src={} width="50" height="50" alt="whatsapp logo" />
-              <div>
+          <h3 className="text-[0.8rem] font-semibold ">Contact Us</h3>
+          <ul className="mb-[25px] ">
+            <li className="flex items-center gap-[10px] mb-[10px] ">
+              <Image
+                src={WhatsappLogo}
+                width="50"
+                height="50"
+                alt="whatsapp logo"
+                className="w-[20px] h-auto "
+              />
+              <div className="">
                 <p>Whatsapp</p>
                 <p>+234 808 039 2216</p>
               </div>
             </li>
 
-            <li>
-              <Image src={} width="50" height="50" alt="Call logo" />
+            <li className=" flex items-center gap-[10px]">
+              <Image
+                src={CallIcon}
+                width="50"
+                height="50"
+                alt="Call logo"
+                className="w-[20px] h-auto "
+              />
               <div>
                 <p>Call Us</p>
                 <p>+234 808 039 2216</p>
               </div>
             </li>
           </ul>
-          <div>
-            <h3>Download App</h3>
-            <div>
+
+          <div className="">
+            <h3 className="text-[0.8rem] font-semibold ">Download App</h3>
+            <div className="">
               <Image
-                src={}
-                width="50"
-                height="50"
+                src={AppStoreImage}
+                width="160"
+                height="70"
                 alt="App store download banner"
+                className="block mb-[5px] w-[100px] h-auto"
               />
-              <div>
-                <h5>
-                  DOWNLOAD ON THE <br />
-                  <span> App Store </span>
-                </h5>
-              </div>
-            </div>
-            <div>
+
               <Image
-                src={}
-                width="50"
-                height="50"
+                src={GooglePlayImage}
+                width="160"
+                height="70"
                 alt="Google play download banner"
+                className="block w-[100px] h-auto"
               />
-              <div>
-                <h5>
-                  GET IT ON <br />
-                  <span> Gooogle Play </span>
-                </h5>
-              </div>
             </div>
           </div>
         </section>
 
-        <section>
-          <h2>Most Popular Categories</h2>
-          <ul>
+        <section className="pt-[60px] pl-[20px]">
+          <h2 className="text-[0.8rem] font-semibold underline">
+            Most Popular Categories
+          </h2>
+          <ul className="flex flex-col gap-[4px] list-disc pl-[20px]">
             <li>Staples</li>
             <li>Beverages</li>
             <li>Personal Care</li>
@@ -71,9 +79,11 @@ export default function Footer() {
             <li>Diary & Bakery</li>
           </ul>
         </section>
-        <section>
-          <h2>Customer Services</h2>
-          <ul>
+        <section className="pt-[60px]">
+          <h2 className="text-[0.8rem] font-semibold underline">
+            Customer Services
+          </h2>
+          <ul className="flex flex-col gap-[4px] pl-[20px] list-disc">
             <li>About us</li>
             <li>Terms & condition</li>
             <li>FAQ</li>
@@ -83,7 +93,9 @@ export default function Footer() {
           </ul>
         </section>
       </section>
-      <p> &copyright; 2025 All rights reserved. Reliance Retail Ltd.</p>
+      <p className="py-[10px] text-center border-t-2 border-t-white">
+        &copy; 2025 All rights reserved. Reliance Retail Ltd.
+      </p>
     </section>
   );
 }
