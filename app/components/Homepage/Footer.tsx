@@ -6,13 +6,17 @@ import GooglePlayImage from "../../../public/GooglePlayImage.png";
 
 export default function Footer() {
   return (
-    <section className="bg-[#2418c0] mx-auto px-[4%] text-[white] font-[montserrat] text-[0.7rem] pt-[20px]">
-      <section className="flex justify-between mb-[20px] gap-0.5 lg:justify-around">
+    <section className="bg-[#2418c0] mx-auto px-[4%] text-[white] font-[montserrat] text-[0.7rem] lg:text-[1rem]  pt-[20px]">
+      <section className="flex justify-between mb-[20px] lg:mb-[40px] gap-0.5 lg:justify-around md:text-[0.9rem]">
         <section>
-          <h1 className="text-[1.7rem] font-bold mb-[20px]">LizaMart</h1>
+          <h1 className="text-[1.7rem] lg:text-[2.5rem] font-bold mb-[20px]">
+            LizaMart
+          </h1>
 
-          <h3 className="text-[0.8rem] font-semibold ">Contact Us</h3>
-          <ul className="mb-[25px] ">
+          <h3 className="text-[0.8rem] md:text-[0.9rem]  lg:text-[1.2rem] lg:mb-[5px] font-semibold ">
+            Contact Us
+          </h3>
+          <ul className="mb-[25px]  ">
             <li className="flex items-center gap-[10px] mb-[10px] ">
               <Image
                 src={WhatsappLogo}
@@ -43,14 +47,16 @@ export default function Footer() {
           </ul>
 
           <div className="">
-            <h3 className="text-[0.8rem] font-semibold ">Download App</h3>
-            <div className="">
+            <h3 className="text-[0.8rem] lg:text-[1.2rem] font-semibold mb-[5px] ">
+              Download App
+            </h3>
+            <div className=" md:flex md:gap-2">
               <Image
                 src={AppStoreImage}
                 width="160"
                 height="70"
                 alt="App store download banner"
-                className="block mb-[5px] w-[100px] h-auto"
+                className="block mb-[5px] w-[100px] md:w-[120px] h-auto"
               />
 
               <Image
@@ -58,17 +64,17 @@ export default function Footer() {
                 width="160"
                 height="70"
                 alt="Google play download banner"
-                className="block w-[100px] h-auto"
+                className="block w-[100px] md:w-[120px]h-auto"
               />
             </div>
           </div>
         </section>
 
-        <section className="pt-[60px] pl-[20px]">
-          <h2 className="text-[0.8rem] font-semibold underline">
+        <section className="pt-[60px] pl-[20px] ">
+          <h2 className="text-[0.8rem] lg:text-[1.2rem]  md:text-[0.9rem] lg:mb-[5px] font-semibold underline">
             Most Popular Categories
           </h2>
-          <ul className="flex flex-col gap-[4px] list-disc pl-[20px]">
+          <ul className="flex flex-col gap-[4px] lg:gap-[8px] list-disc pl-[20px]">
             <li>Staples</li>
             <li>Beverages</li>
             <li>Personal Care</li>
@@ -79,11 +85,11 @@ export default function Footer() {
             <li>Diary & Bakery</li>
           </ul>
         </section>
-        <section className="pt-[60px]">
-          <h2 className="text-[0.8rem] font-semibold underline">
+        <section className="pt-[60px] ">
+          <h2 className="text-[0.8rem] lg:text-[1.2rem] lg:mb-[5px] md:text-[0.9rem] font-semibold underline">
             Customer Services
           </h2>
-          <ul className="flex flex-col gap-[4px] pl-[20px] list-disc">
+          <ul className="flex flex-col gap-[4px] lg:gap-[8px] pl-[20px] list-disc">
             <li>About us</li>
             <li>Terms & condition</li>
             <li>FAQ</li>
