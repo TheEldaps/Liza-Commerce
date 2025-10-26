@@ -62,6 +62,8 @@ export default function Login() {
           >
             Forgot password?
           </Link>
+
+          <Link href="Create account">Create Account</Link>
         </div>
       </form>
     </section>
