@@ -10,7 +10,7 @@ import Footer from "./components/Homepage/Footer";
 export default function Home() {
   return (
     <div className="min-h-[500vh]">
-      <Nav />
+      {/* <Nav /> */}
       <CategoryList />
       <BannerSection />
       <BestDealSection />
